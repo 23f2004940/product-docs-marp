@@ -36,7 +36,7 @@ Maintainable, versioned, and convertible docs with **Marp**.
 ---
 
 <!-- A slide with a background image -->
-<!-- _backgroundImage: url('assets/bg.jpg') -->
+<!-- _backgroundImage: url('https://raw.githubusercontent.com/23f2004940/product-docs-marp/main/assets/bg.jpg') -->
 <!-- _backgroundSize: cover -->
 <!-- _color: #ffffff -->
 <!-- _class: lead -->
