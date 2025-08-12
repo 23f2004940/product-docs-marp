@@ -17,6 +17,7 @@ style: |
 
 <!-- _class: lead -->
 <!-- _backgroundImage: url('https://raw.githubusercontent.com/23f2004940/product-docs-marp/main/assets/bg.jpg') -->
+![bg]('https://raw.githubusercontent.com/23f2004940/product-docs-marp/main/assets/bg.jpg')
 # Product Documentation Deck
 
 **23f2004940@ds.study.iitm.ac.in**
