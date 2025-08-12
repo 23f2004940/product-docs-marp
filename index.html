@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Quarterly Earnings — Q2 FY2025</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Core & theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/league.css" id="theme">
+  <!-- Code highlight theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/monokai.css">
+
+  <style>
+    .small { font-size: 0.85em; }
+  </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- Title slide (includes your email) -->
+      <section data-background-transition="fade">
+        <h1>Quarterly Earnings — Q2 FY2025</h1>
+        <p class="small">Prepared by: <strong>23f2004940@ds.study.iitm.ac.in</strong></p>
+        <p class="small">Tip: Press <strong>S</strong> to open speaker notes</p>
+        <aside class="notes">
+          Welcome everyone. This deck demonstrates modern presentation features:
+          Markdown, fragments, syntax‑highlighted code, math, and speaker notes.
+        </aside>
+      </section>
+
+      <!-- Markdown slide -->
+      <section data-markdown>
+        <textarea data-template>
+## Operating Highlights (Markdown)
+
+- **Total revenue:** ₹12,300 Cr  
+- **YoY growth:** **+12%**  
+- **Net interest margin (NIM):** 3.7%  
+- **Cost-to-income:** 42%
+
+_This slide is authored in Markdown via the RevealMarkdown plugin._
+        </textarea>
+        <aside class="notes">Call out that this entire slide is pure Markdown.</aside>
+      </section>
+
+      <!-- Fragments (animated reveals) -->
+      <section>
+        <h2>Key Metrics (Fragments)</h2>
+        <ul>
+          <li class="fragment fade-up">🧾 EPS: ₹12.45</li>
+          <li class="fragment fade-up" data-fragment-index="2">📈 ROE: 16.2%</li>
+          <li class="fragment fade-up" data-fragment-index="3">💰 Provision coverage: 78%</li>
+        </ul>
+        <aside class="notes">
+          Reveal each point as you discuss it; pause between fragments.
+        </aside>
+      </section>
+
+      <!-- Code samples with syntax highlighting -->
+      <section>
+        <h2>Code sample (syntax highlight)</h2>
+        <pre><code class="language-python" data-trim>
+import pandas as pd
+
+df = pd.DataFrame({
+    "quarter": ["Q1","Q2","Q3","Q4"],
+    "eps": [10.2, 12.45, 11.8, 13.0]
+})
+print("Avg EPS:", df["eps"].mean())
+        </code></pre>
+
+        <pre><code class="language-javascript" data-trim>
+// Simple KPI class helper
+function kpiClass(value, target) {
+  return value >= target ? "good" : "warn";
+}
+        </code></pre>
+        <aside class="notes">Demonstrate multi‑language highlighting.</aside>
+      </section>
+
+      <!-- Math (financial formulas) -->
+      <section>
+        <h2>Financial formulas (Math)</h2>
+        <p>Present Value: \( PV = \dfrac{CF}{(1+r)^n} \)</p>
+        <p>Dividend Discount (Gordon): \( P_0 = \dfrac{D_1}{r-g} \)</p>
+        <p>CAPM: \( E[R_i] = r_f + \beta_i \big( E[R_m] - r_f \big) \)</p>
+        <aside class="notes">These render via KaTeX through the Reveal Math plugin.</aside>
+      </section>
+
+      <section>
+        <h2>Thank you</h2>
+        <p>Questions? <br> <a href="mailto:23f2004940@ds.study.iitm.ac.in">23f2004940@ds.study.iitm.ac.in</a></p>
+        <aside class="notes">Invite Q&A and next steps.</aside>
+      </section>
+
+    </div>
+  </div>
+
+  <!-- RevealJS core & plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/math/math.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      plugins: [ RevealMarkdown, RevealHighlight, RevealMath.KaTeX, RevealNotes ]
+    });
+  </script>
+</body>
+</html>
